@@ -1,0 +1,22 @@
+program Calculadora;
+const pi = 3;
+var a, b: integer;
+var resultado: real;
+procedure soma(x: integer; y: integer)
+begin
+  resultado := x + y;
+end;
+
+begin
+  read(a);
+  read(b);
+  soma(a, b);
+  if resultado >= 10 then
+  begin
+    print{"Maior ou igual a 10", resultado};
+  end
+  else
+  begin
+    print{"Menor que 10", resultado};
+  end
+end.

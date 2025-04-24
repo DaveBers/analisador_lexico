@@ -1,0 +1,10 @@
+program SomaLoop;
+var i, soma: integer;
+begin
+  soma := 0;
+  for 1 to 5 do
+  begin
+    soma := soma + 1;
+  end
+  print{"Resultado:", soma};
+end.
